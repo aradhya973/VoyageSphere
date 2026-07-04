@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="booking-section">
+
+    <h2>✈️ Book Your Dream Trip</h2>
+    <p>Fill in your details and let your journey begin.</p>
+
+    <form class="booking-form">
+
+        <div class="input-box">
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter your full name" required>
+        </div>
+
+        <div class="input-box">
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email" required>
+        </div>
+
+        <div class="input-box">
+            <label>Phone Number</label>
+            <input type="tel" placeholder="+91 XXXXX XXXXX" required>
+        </div>
+
+        <div class="input-box">
+            <label>Source</label>
+            <input type="text" placeholder="From">
+        </div>
+
+        <div class="input-box">
+            <label>Destination</label>
+            <input type="text" placeholder="Where to?">
+        </div>
+
+        <div class="input-box">
+            <label>Travel Date</label>
+            <input type="date">
+        </div>
+
+        <div class="input-box">
+            <label>Return Date</label>
+            <input type="date">
+        </div>
+
+        <div class="input-box">
+            <label>Mode of Travel</label>
+            <select>
+                <option>Select</option>
+                <option>✈️ Flight</option>
+                <option>🚆 Train</option>
+                <option>🚌 Bus</option>
+            </select>
+        </div>
+
+        <div class="input-box">
+            <label>Number of Travelers</label>
+            <input type="number" min="1" placeholder="Eg. 2">
+        </div>
+
+        <div class="input-box">
+            <label>Address</label>
+            <textarea rows="4" placeholder="Enter your address"></textarea>
+        </div>
+
+        <button type="submit" class="book-btn">
+            <a href="submit.html">Book Now</a>
+        </button>
+
+    </form>
+
+</section>
+</body>
+</html>
